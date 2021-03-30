@@ -18,13 +18,13 @@ get auth(){
   return this.authService.auth;
 
 }
-  constructor( private router:Router,
+  constructor( private router: Router,
                private authService: AuthService ) { }
 
   ngOnInit(): void {
   }
   logout(){
-    this.router.navigate(['./auth'])
+    this.router.navigate(['./auth']);
 
   }
 }

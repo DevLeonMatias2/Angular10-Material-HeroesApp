@@ -17,12 +17,12 @@ export class LoginComponent {
     //Ir al backend
     //Un usuario
     this.authService.login()
-      .subscribe(resp =>{
+      .subscribe(resp => {
         console.log(resp);
         if (resp.id){
-     this.router.navigate(['./heroes'])
+     this.router.navigate(['./heroes']);
         }
-      })
+      });
 
   }
 

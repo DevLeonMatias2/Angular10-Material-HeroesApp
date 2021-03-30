@@ -1,7 +1,7 @@
 
 export  interface Auth {
 
-  id       : string;
-  usuario  : string;
-  email    : string;
+  id: string;
+  email: string;
+  usuario: string;
 }
